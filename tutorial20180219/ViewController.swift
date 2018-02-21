@@ -117,7 +117,7 @@ class ViewController: UIViewController {
 
     //　ドラッグ終了時に呼ばれる
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        print("touches ended")
+
         if !isImageInside! {
             return
         }

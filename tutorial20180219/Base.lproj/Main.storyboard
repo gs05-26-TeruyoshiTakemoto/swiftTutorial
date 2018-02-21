@@ -94,13 +94,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcu-yv-QGe">
+                                <rect key="frame" x="69" y="472" width="243" height="80"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="c3T-Oy-df5" firstAttribute="leading" secondItem="Nbe-4v-fAT" secondAttribute="leading" constant="100" id="24i-hn-Gvc"/>
+                            <constraint firstItem="Nbe-4v-fAT" firstAttribute="bottom" secondItem="vcu-yv-QGe" secondAttribute="bottom" constant="115" id="3Wa-vR-pVn"/>
                             <constraint firstItem="JpG-D0-vKj" firstAttribute="centerY" secondItem="qcA-ie-DHd" secondAttribute="centerY" id="BQ6-SQ-Bor"/>
                             <constraint firstItem="JpG-D0-vKj" firstAttribute="leading" secondItem="Nbe-4v-fAT" secondAttribute="leading" constant="35" id="BnU-45-3xG"/>
+                            <constraint firstItem="vcu-yv-QGe" firstAttribute="top" secondItem="xU9-6p-gj5" secondAttribute="bottom" constant="5" id="PZV-ot-fvc"/>
                             <constraint firstItem="c3T-Oy-df5" firstAttribute="top" secondItem="qcA-ie-DHd" secondAttribute="topMargin" constant="118" id="SKs-cG-iHc"/>
+                            <constraint firstItem="Nbe-4v-fAT" firstAttribute="trailing" secondItem="vcu-yv-QGe" secondAttribute="trailing" constant="63" id="Uek-7V-Imt"/>
                             <constraint firstItem="Nbe-4v-fAT" firstAttribute="bottom" secondItem="c3T-Oy-df5" secondAttribute="bottom" constant="267" id="VNk-4X-KWz"/>
                             <constraint firstItem="Nbe-4v-fAT" firstAttribute="trailing" secondItem="c3T-Oy-df5" secondAttribute="trailing" constant="100" id="daz-Wg-fxB"/>
                             <constraint firstItem="Nbe-4v-fAT" firstAttribute="bottom" secondItem="xU9-6p-gj5" secondAttribute="bottom" constant="200" id="p8c-kv-xIK"/>
@@ -108,11 +117,13 @@
                             <constraint firstItem="xU9-6p-gj5" firstAttribute="top" secondItem="c3T-Oy-df5" secondAttribute="bottom" constant="10" id="svw-jO-TI3"/>
                             <constraint firstItem="JpG-D0-vKj" firstAttribute="top" secondItem="Nbe-4v-fAT" secondAttribute="top" constant="80" id="tsG-8Z-z1q"/>
                             <constraint firstItem="xU9-6p-gj5" firstAttribute="leading" secondItem="Nbe-4v-fAT" secondAttribute="leading" constant="55" id="uUZ-97-fen"/>
+                            <constraint firstItem="vcu-yv-QGe" firstAttribute="leading" secondItem="Nbe-4v-fAT" secondAttribute="leading" constant="69" id="yKW-g3-DjY"/>
                             <constraint firstItem="JpG-D0-vKj" firstAttribute="centerX" secondItem="qcA-ie-DHd" secondAttribute="centerX" id="zeq-GN-NQo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Nbe-4v-fAT"/>
                     </view>
                     <connections>
+                        <outlet property="content" destination="vcu-yv-QGe" id="OTM-om-vdF"/>
                         <outlet property="imagePerson" destination="c3T-Oy-df5" id="Pyb-ok-AFm"/>
                         <outlet property="name" destination="xU9-6p-gj5" id="5EJ-6w-Lml"/>
                     </connections>

@@ -13,26 +13,26 @@ class PopupViewController: UIViewController {
     @IBOutlet weak var imagePerson: UIImageView!
     
     @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var content: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         imagePerson.image = UIImage(named: "ttakemoto2.jpg")
         name.text = "竹本晃理"
+        content.text = "慶應義塾大学4年生。趣味はバスケットボールと香水収集。ベトナムで6ヶ月ほどphpエンジニアとして活動。よろしくお願いします"
+        //labelの改行
+        content.numberOfLines = 0
+        content.sizeToFit()
 
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
 
     }
-    
-    // 閉じるボタンがタップされた時
-//    @IBAction func onTapCancel(_ sender: UIButton) {
-//        self.dismiss(animated: false, completion: nil)
-//    }
-    
+
     // ポップアップの外側をタップした時にポップアップを閉じる
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
