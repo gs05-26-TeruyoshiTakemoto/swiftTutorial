@@ -12,6 +12,9 @@
 		043ABF3F203A8A74004FECE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043ABF3D203A8A74004FECE5 /* Main.storyboard */; };
 		043ABF41203A8A74004FECE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043ABF40203A8A74004FECE5 /* Assets.xcassets */; };
 		043ABF44203A8A74004FECE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043ABF42203A8A74004FECE5 /* LaunchScreen.storyboard */; };
+		043ABF4C203C21A9004FECE5 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ABF4B203C21A9004FECE5 /* PopupViewController.swift */; };
+		043ABF4E203C3669004FECE5 /* ttakemoto1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 043ABF4D203C3669004FECE5 /* ttakemoto1.jpg */; };
+		043ABF50203C367D004FECE5 /* ttakemoto2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 043ABF4F203C367D004FECE5 /* ttakemoto2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		043ABF40203A8A74004FECE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043ABF43203A8A74004FECE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043ABF45203A8A74004FECE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043ABF4B203C21A9004FECE5 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		043ABF4D203C3669004FECE5 /* ttakemoto1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ttakemoto1.jpg; path = ../../ttakemoto1.jpg; sourceTree = "<group>"; };
+		043ABF4F203C367D004FECE5 /* ttakemoto2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ttakemoto2.jpg; path = ../../ttakemoto2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		043ABF38203A8A74004FECE5 /* tutorial20180219 */ = {
 			isa = PBXGroup;
 			children = (
+				043ABF4F203C367D004FECE5 /* ttakemoto2.jpg */,
+				043ABF4D203C3669004FECE5 /* ttakemoto1.jpg */,
 				043ABF39203A8A74004FECE5 /* AppDelegate.swift */,
 				043ABF3B203A8A74004FECE5 /* ViewController.swift */,
+				043ABF4B203C21A9004FECE5 /* PopupViewController.swift */,
 				043ABF3D203A8A74004FECE5 /* Main.storyboard */,
 				043ABF40203A8A74004FECE5 /* Assets.xcassets */,
 				043ABF42203A8A74004FECE5 /* LaunchScreen.storyboard */,
@@ -125,7 +134,9 @@
 			files = (
 				043ABF44203A8A74004FECE5 /* LaunchScreen.storyboard in Resources */,
 				043ABF41203A8A74004FECE5 /* Assets.xcassets in Resources */,
+				043ABF4E203C3669004FECE5 /* ttakemoto1.jpg in Resources */,
 				043ABF3F203A8A74004FECE5 /* Main.storyboard in Resources */,
+				043ABF50203C367D004FECE5 /* ttakemoto2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +149,7 @@
 			files = (
 				043ABF3C203A8A74004FECE5 /* ViewController.swift in Sources */,
 				043ABF3A203A8A74004FECE5 /* AppDelegate.swift in Sources */,
+				043ABF4C203C21A9004FECE5 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
